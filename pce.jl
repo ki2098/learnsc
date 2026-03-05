@@ -2,7 +2,7 @@ using DataFrames, CSV, PolyChaos
 
 include("foo.jl")
 
-function run_pce(N; degree=5)
+function run_pce(N; degree=10)
     if degree > N
         degree = N
     end
